@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+
+# VS Code
+.vscode/
+
+# Hugging Face / ML caches
+.cache/
+huggingface/
+wandb/
+
+# Generated data
+data/generated/
+data/processed/
+
+# Model artifacts
+checkpoints/
+artifacts/
+models/
+
+# Experiment outputs
+runs/
+reports/generated/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
