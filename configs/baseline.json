@@ -1,0 +1,11 @@
+{
+    "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+    "seed": 42,
+    "epochs": 5,
+    "learning_rate": 0.0002,
+    "batch_size": 1,
+    "max_length": 128,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+}
